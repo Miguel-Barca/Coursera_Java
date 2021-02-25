@@ -17,7 +17,6 @@ public class part4 {
                  // print or process s
                  for (String word : ur.words()) {
                      // process each word in turn
-                     
                      if(word.toLowerCase().contains("www.youtube.com")) {
                          int firstOcurrence = word.indexOf("\"");
                          int lastOcurrence = word.indexOf("\"", firstOcurrence + 1);
