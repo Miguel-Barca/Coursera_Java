@@ -2,8 +2,8 @@
 /**
  * Write a description of Part2 here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Miguel Costa 
+ * @version 25/02/2021
  */
 public class Part2 {
     public String findSimpleGene(String dna, String startCodon, String stopCodon) {
