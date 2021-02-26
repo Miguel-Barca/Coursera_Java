@@ -11,7 +11,6 @@ public class part4 {
     URLResource ur = new URLResource("https://www.dukelearntoprogram.com/course2/data/manylinks.html");
     
     public void findWebsite() {
-        
             // process each line in turn
              for (String s : ur.lines()) {
                  // print or process s
@@ -31,6 +30,4 @@ public class part4 {
              } 
         
     }
-    
-    
 }
